@@ -19,9 +19,8 @@ app = FastAPI(title="TripPilot AI")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:3001",
-        "http://127.0.0.1:3001",
-        "https://trip-pilot-ai-7j8i.vercel.app"
+        "https://trip-pilot-ai-73gp.vercel.app"
+        
     ],
     allow_credentials=True,
     allow_methods=["*"],
